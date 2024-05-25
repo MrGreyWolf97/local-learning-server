@@ -7,9 +7,24 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="pscPublicSnapshotsRepository" />
+      <option name="name" value="Repository for all SNAPSHOT artifacts" />
+      <option name="url" value="https://nexus.st.paysafecard.com/repository/maven-public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="pscPublicReleasesRepository" />
+      <option name="name" value="Repository for all release artifacts" />
+      <option name="url" value="https://nexus.st.paysafecard.com/repository/maven-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://nexus.st.paysafecard.com/repository/maven-public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss.community" />
